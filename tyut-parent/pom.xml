@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+        <groupId>com.laojiao.eureka</groupId>
+        <artifactId>tyut-parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <modelVersion>4.0.0</modelVersion>
+        <packaging>pom</packaging>
+
+    <modules>
+        <module>../tyut-helpstudy-service</module>
+        <module>../tyut-grade-service</module>
+        <module>../tyut-notice-service</module>
+        <module>../tyut-eureka-server</module>
+        <module>../tyut-config-server</module>
+        <module>../tyut-core</module>
+        <module>../tyut-core-repository</module>
+
+    </modules>
+
+
+    <properties>
+    <tyut.parent.version>0.0.1-SNAPSHOT</tyut.parent.version>
+    <tyut.grade.version>0.0.1-SNAPSHOT</tyut.grade.version>
+    <tyut.notice.version>0.0.1-SNAPSHOT</tyut.notice.version>
+    <tyut.client.version>0.0.1-SNAPSHOT</tyut.client.version>
+    <tyut.core.version>0.0.1-SNAPSHOT</tyut.core.version>
+
+    <springboot.version>1.5.1.RELEASE</springboot.version>
+    <springcloud.version>Camden.SR5</springcloud.version>
+    <mybatis.springboot.version>1.3.0</mybatis.springboot.version>
+    <jdbc.mysql.version>5.1.41</jdbc.mysql.version>
+    <fastjson.version>1.2.31</fastjson.version>
+    <gson.version>2.3.1</gson.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.laojiao.eureka</groupId>
+                <artifactId>tyut-eureka-client</artifactId>
+                <version>${tyut.client.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis.springboot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${jdbc.mysql.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.laojiao.eureka</groupId>
+                <artifactId>tyut-core</artifactId>
+                <version>${tyut.core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.laojiao.eureka</groupId>
+                <artifactId>tyut-core-repository</artifactId>
+                <version>${tyut.core.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
+</project>

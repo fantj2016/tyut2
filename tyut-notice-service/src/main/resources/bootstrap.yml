@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        service-id: tyut-config-server
+        enabled: true
+      name: tyut
+      profile: default
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+  instance:
+    lease-renewal-interval-in-seconds: 1
+    lease-expiration-duration-in-seconds: 2

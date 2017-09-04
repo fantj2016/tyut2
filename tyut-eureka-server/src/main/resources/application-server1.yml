@@ -1,0 +1,5 @@
+server:
+  port: ${server1.port}
+spring:
+  application:
+    name: eurake-server1

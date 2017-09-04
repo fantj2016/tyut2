@@ -1,0 +1,26 @@
+
+server1:
+  port: 8001
+
+server2:
+  port: 8002
+
+server3:
+  port: 8003
+
+eureka:
+  server:
+    enable-self-preservation: false
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:8001/eureka
+server:
+  port: 8001
+
+#server:
+#  port: 8001
+#spring:
+#  application:
+#    name: eureka-server

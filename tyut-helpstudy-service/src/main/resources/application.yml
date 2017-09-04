@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: tyut-helpstudy-service
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/tyut?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
+
+#port   :    10001
+server:
+  port: 10003
+
+mybatis:
+  mapper-locations: com/tyut/eureka/core/mapping/*.xml
+  type-aliases-package: com.tyut.eureka.core.pojo

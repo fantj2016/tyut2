@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: tyut-notice-service
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/tyut?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
+
+#port   :    10001
+server:
+  port: 10002
+
+mybatis:
+  mapper-locations: com/tyut/eureka/core/mapping/*.xml
+  type-aliases-package: com.tyut.eureka.core.pojo
