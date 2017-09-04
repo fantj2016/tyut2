@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tyut-notice-service:war">
+    <output-path>$PROJECT_DIR$/../tyut/tyut-notice-service/target</output-path>
+    <root id="archive" name="notice.war">
+      <element id="artifact" artifact-name="tyut-notice-service:war exploded" />
+    </root>
+  </artifact>
+</component>

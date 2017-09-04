@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tyut-config-server" />
+        <module name="tyut-core" />
+        <module name="tyut-core-repository" />
+        <module name="tyut-eureka-client" />
+        <module name="tyut-eureka-server" />
+        <module name="tyut-grade-service" />
+        <module name="tyut-helpstudy-service" />
+        <module name="tyut-notice-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tyut-config-server" target="1.8" />
+      <module name="tyut-core" target="1.8" />
+      <module name="tyut-core-repository" target="1.8" />
+      <module name="tyut-eureka-client" target="1.8" />
+      <module name="tyut-eureka-server" target="1.8" />
+      <module name="tyut-grade-service" target="1.8" />
+      <module name="tyut-helpstudy-service" target="1.8" />
+      <module name="tyut-notice-service" target="1.8" />
+      <module name="tyut-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

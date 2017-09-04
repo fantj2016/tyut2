@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../tyut/tyut-config-server/tyut-config-server.iml" filepath="$PROJECT_DIR$/../tyut/tyut-config-server/tyut-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tyut/tyut-core/tyut-core.iml" filepath="$PROJECT_DIR$/../tyut/tyut-core/tyut-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tyut/tyut-core-repository/tyut-core-repository.iml" filepath="$PROJECT_DIR$/../tyut/tyut-core-repository/tyut-core-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tyut/tyut-grade-client/tyut-eureka-client.iml" filepath="$PROJECT_DIR$/../tyut/tyut-grade-client/tyut-eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tyut/tyut-eureka-server/tyut-eureka-server.iml" filepath="$PROJECT_DIR$/../tyut/tyut-eureka-server/tyut-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tyut/tyut-grade-service/tyut-grade-service.iml" filepath="$PROJECT_DIR$/../tyut/tyut-grade-service/tyut-grade-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tyut/tyut-helpstudy-service/tyut-helpstudy-service.iml" filepath="$PROJECT_DIR$/../tyut/tyut-helpstudy-service/tyut-helpstudy-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tyut/tyut-notice-service/tyut-notice-service.iml" filepath="$PROJECT_DIR$/../tyut/tyut-notice-service/tyut-notice-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tyut/tyut-parent/tyut-parent.iml" filepath="$PROJECT_DIR$/../tyut/tyut-parent/tyut-parent.iml" />
+    </modules>
+  </component>
+</project>

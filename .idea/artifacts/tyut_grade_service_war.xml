@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tyut-grade-service:war">
+    <output-path>$PROJECT_DIR$/../tyut/tyut-grade-service/target</output-path>
+    <root id="archive" name="grade.war">
+      <element id="artifact" artifact-name="tyut-grade-service:war exploded" />
+    </root>
+  </artifact>
+</component>
